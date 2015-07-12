@@ -1,5 +1,7 @@
 ## Send Keys ##
 
+[![Build Status](https://api.travis-ci.org/leriksen/simple-send-keys.png?branch=master)](http://travis-ci.org/leriksen/simple-send-keys)
+
 Send keys is a capybara extension that lets you send keystrokes to an element in the browser. It uses webdriver so must be used using the `@javascript` tag in your features.
 
 This gem is based heavily off send-keys, but with less assumptions. send-keys assumes you are using Cucumber and Rails, simple_send_keys does not, it only assumes you're using Capybara.
@@ -7,10 +9,10 @@ This gem is based heavily off send-keys, but with less assumptions. send-keys as
 ### Installation ###
 
 In your Gemfile
-gem 'simple-send-keys'
+    gem 'simple-send-keys'
 
 Then in your test
-require 'simple_send_keys'
+    require 'simple_send_keys'
 
 ### Why would you need this ###
 
