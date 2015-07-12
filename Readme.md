@@ -9,10 +9,14 @@ This gem is based heavily off send-keys, but with less assumptions. send-keys as
 ### Installation ###
 
 In your Gemfile
-    gem 'simple-send-keys'
+```ruby
+gem 'simple-send-keys'
+```
 
 Then in your test
-    require 'simple_send_keys'
+```ruby
+require 'simple_send_keys'
+```
 
 ### Why would you need this ###
 
@@ -25,11 +29,12 @@ First make sure you have capybara configured to use a javascript-capable driver.
 Then in your test you can send characters or modifier keys to an element, or an array of modifier keys and keys.
 
 For Example
+```ruby
+find("input#search").send_keys('gist')
+find("input#search").send_keys('[backspace, "gist", f1 , 123]')
+find("input#search").send_keys('[shift, a]')' 
+```
 
-    find("input#search").send_keys('gist')
-    find("input#search").send_keys('[backspace, "gist", f1 , 123]')
-    find("input#search").send_keys('[shift, a]')' 
-    
 #### List of modifiers/special keys ####
 
 There are a list of modifier and special keys which can be sent to an element
