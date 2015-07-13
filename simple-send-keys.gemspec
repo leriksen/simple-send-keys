@@ -32,6 +32,7 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency('rake' , '~> 10.4', '>=10.4.2')
   s.add_development_dependency('rspec', '~> 3.3' , '>=3.3.0' )
+  s.add_development_dependency('coveralls', '~> 0.8' , '>=0.8.2' )
 
   s.add_dependency('bundler', '>= 1.3.0', '< 2.0')
 
