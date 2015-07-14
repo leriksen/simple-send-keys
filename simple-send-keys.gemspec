@@ -37,6 +37,6 @@ Gem::Specification.new do |s|
   s.add_dependency('bundler', '>= 1.3.0', '< 2.0')
 
   # tools
-  s.required_ruby_version     = '>= 2.1.0'
+  s.required_ruby_version     = '>= 1.9.3'
   s.required_rubygems_version = '>= 1.8.11'
 end
