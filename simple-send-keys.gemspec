@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   # info
   s.platform    = Gem::Platform::RUBY
   s.name        = 'simple-send-keys'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.authors     = ['Leif Eriksen']
   s.date        = '2015-07-12'
   s.license     = 'MIT'
