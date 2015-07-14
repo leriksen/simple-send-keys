@@ -4,6 +4,8 @@ before_install:
   - gem install bundler -v '>= 1.5.1'
 rvm:
   - 2.1.0
+  - 2.0.0
+  - 1.9.3
 gemfile:
   - Gemfile
 notifications:
